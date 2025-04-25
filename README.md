@@ -14,7 +14,7 @@ The solution consists of three interconnected Kintone apps:
 - **Functionality**:
   - Displays all items available, stock, and corresponding orders that include them
 
-### 2. **Contactsr**
+### 2. **Contacts**
 - **Purpose**: Stores contacts information for both customer and vendor
 - **Views**: Separate views for customers and vendors.
 - **Functionality**:
