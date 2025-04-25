@@ -8,14 +8,14 @@ This repository contains the JavaScript customization used to automate inventory
 
 The solution consists of three interconnected Kintone apps:
 
-### 1. **Item Master**
+### 1. **Items**
 - **Purpose**: Stores the list of items available for sale or purchase.
-- **Connected To**: Orders app (via lookup/reference).
+- **Connected To**: Orders app (via lookup).
 - **Functionality**:
-  - Displays all orders where a specific item was involved.
+  - Displays all items available, stock, and corresponding orders that include them
 
-### 2. **Contact Master**
-- **Purpose**: Acts as a centralized contact directory for both customers and vendors.
+### 2. **Contactsr**
+- **Purpose**: Stores contacts information for both customer and vendor
 - **Views**: Separate views for customers and vendors.
 - **Functionality**:
   - Displays all orders associated with each contact.
@@ -23,8 +23,8 @@ The solution consists of three interconnected Kintone apps:
 ### 3. **Orders**
 - **Purpose**: Tracks all purchase and sales orders.
 - **Features**:
-  - Contains a **process management workflow** for tracking order statuses (e.g., "Pending", "Fulfilled", "Canceled").
-  - Linked to both Item Master and Contact Master through lookup fields.
+  - Contains a **process management workflow** for tracking order statuses (Requested -> In progress -> Completed).
+  - Linked to both Items and Contacts through lookup fields.
 
 ---
 
