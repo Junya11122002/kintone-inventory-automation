@@ -1,6 +1,6 @@
 # Kintone Inventory Automation
 
-This repository contains the JavaScript customization used to automate inventory tracking for a small business using Kintone. It integrates multiple apps within Kintone to streamline the inventory process and reduce manual overhead.
+This repository contains the JavaScript customization used to automate inventory tracking for a small business using Kintone. 
 
 ---
 
