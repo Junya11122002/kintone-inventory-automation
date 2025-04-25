@@ -8,7 +8,7 @@
     const item = record['item_name'].value;
     const quantity = parseInt(record['qty'].value, 10);
 
-    const appIdItems = 6; // Make sure this is the correct App ID
+    const appIdItems = 6; 
 
     const query = `item_name = "${item}"`;
     console.log('Running query:', query);
