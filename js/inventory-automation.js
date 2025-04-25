@@ -38,7 +38,6 @@
         newStock += quantity;
       }
 
-      console.log(`Updating item ID ${itemId} stock from ${currentStock} to ${newStock}`);
 
       await kintone.api(kintone.api.url('/k/v1/record', true), 'PUT', {
         app: appIdItems,
