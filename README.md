@@ -6,8 +6,6 @@ This repository contains the JavaScript customization used to automate inventory
 
 ## Kintone App Structure
 
-The solution consists of three interconnected Kintone apps:
-
 ### 1. **Items**
 - **Purpose**: Stores the list of items available for sale or purchase.
 - **Connected To**: Orders app (via lookup).
